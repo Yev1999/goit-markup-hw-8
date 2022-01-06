@@ -1,0 +1,61 @@
+:root {
+    --main-title-color: #FFFFFF;
+    --second-title-color: #212121;
+    --main-text-color: #757575;
+    --second-text-color: color: rgba(255, 255, 255, 0.6);
+    --colored-text: #2196F3;
+    --hover-text: #2196F3;
+    --main-btn-color: #FFFFFF;
+    --second-btn-color: #757575;
+    --btn-text-color: #212121;
+    --section-servicec-fon: #2F303A;
+    --section-work-fon: #E5E5E5;
+    --section-our-fon: #E5E5E5;
+    --section-team-fon: #F5F4FA;
+    --footer-fon: #2F303A;
+    --button-text-color: #F5F4FA;
+    --time: 250ms;
+    --cubic: cubic-bezier(0.4, 0, 0.2, 1);
+    
+}
+.visually-hidden {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    border: 0;
+    padding: 0;
+    
+    white-space: nowrap;
+    clip-path: inset(100%);
+    clip: rect(0 0 0 0);
+    overflow: hidden;
+}
+
+.section__title {
+    font-weight: 700;
+    font-size: 28px;
+    line-height: 1.17;
+    text-align: center;
+    letter-spacing: 0.03em;
+    color: var(--second-title-color);
+    margin-bottom: 50px;
+  @media screen and (min-width: 768px) {
+    font-weight: 700;
+    font-size: 28px;
+    line-height: 1.17;
+    text-align: center;
+    letter-spacing: 0.03em;
+    color: var(--second-title-color);
+    margin-bottom: 50px;
+  }
+  @media screen and (min-width: 1200px) {
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.16;
+    text-align: center;
+    letter-spacing: 0.03em;
+    color: var(--second-title-color);
+    margin-bottom: 50px;
+  }
+}
