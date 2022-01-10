@@ -101,7 +101,7 @@
           </ul>
         </nav>
         <ul class="header__connect">
-          <li class="header__item">
+          <li class="header__item2">
             <a class="link__tel link" href="mailto:info@devstudio.com">
               <svg class="item__svg" width="16" height="12">
                 <use href="./images/icons.svg#icon-envelope"></use>
@@ -109,7 +109,7 @@
               info@devstudio.com</a
             >
           </li>
-          <li class="header__item">
+          <li class="header__item2">
             <a class="link__tel link" href="tel:+380961111111">
               <svg class="item__svg" width="10" height="16">
                 <use href="./images/icons.svg#icon-smartphone"></use>
@@ -190,13 +190,22 @@
           <ul class="about__list">
             <li class="about__item">
               <div class="about__general">
-                <img
-                  class="about__img"
-                  src="./images/img1.jpg"
-                  alt="наша работа"
-                  width="370"
-                  height="294"
-                />
+                <picture>
+                  <source
+                    srcset="
+                      ./images/decktop/1first1x.jpg 1x,
+                      ./images/decktop/1first2x.jpg 2x
+                    "
+                  />
+                  <img
+                    class="about__img"
+                    src="./images/img1.jpg"
+                    alt="наша работа"
+                    width="370"
+                    height="294"
+                  />
+                </picture>
+
                 <div class="about__actions">
                   <p class="about__text">Десктопные приложения</p>
                 </div>
@@ -204,13 +213,22 @@
             </li>
             <li class="about__item">
               <div class="about__general">
-                <img
-                  class="about__img"
-                  src="./images/img2.jpg"
-                  alt="наша работа"
-                  width="370"
-                  height="294"
-                />
+                <picture>
+                  <source
+                    srcset="
+                      ./images/decktop/2first1x.jpg 1x,
+                      ./images/decktop/2first2x.jpg 2x
+                    "
+                  />
+                  <img
+                    class="about__img"
+                    src="./images/img2.jpg"
+                    alt="наша работа"
+                    width="370"
+                    height="294"
+                  />
+                </picture>
+
                 <div class="about__actions">
                   <p class="about__text">Мобильные приложения</p>
                 </div>
@@ -218,13 +236,22 @@
             </li>
             <li class="about__item">
               <div class="about__general">
-                <img
-                  class="about__img"
-                  src="./images/img3.jpg"
-                  alt="наша работа"
-                  width="370"
-                  height="294"
-                />
+                <picture>
+                  <source
+                    srcset="
+                      ./images/decktop/3first1x.jpg 1x,
+                      ./images/decktop/3first2x.jpg 2x
+                    "
+                  />
+                  <img
+                    class="about__img"
+                    src="./images/img3.jpg"
+                    alt="наша работа"
+                    width="370"
+                    height="294"
+                  />
+                </picture>
+
                 <div class="about__actions">
                   <p class="about__text">Дизайнерские решения</p>
                 </div>
@@ -240,9 +267,13 @@
             <li class="team__item">
               <picture>
                 <source
-                  srcset="./images/mob/wan1x.jpg 1x, ./images/mob/wan2x.jpg 2x"
-                  media="(min-width: 320px)"
+                  srcset="
+                    ./images/decktop/dex1com1x.jpg 1x,
+                    ./images/decktop/dex1com2x.jpg 2x
+                  "
+                  media="(min-width: 1200px)"
                 />
+
                 <source
                   srcset="
                     ./images/tab/tab1x1.jpg 1x,
@@ -251,11 +282,8 @@
                   media="(min-width: 768px)"
                 />
                 <source
-                  srcset="
-                    ./images/decktop/dex1com1x.jpg 1x,
-                    ./images/decktop/dex1com2x.jpg 2x
-                  "
-                  media="(min-width: 1200px)"
+                  srcset="./images/mob/wan1x.jpg 1x, ./images/mob/wan2x.jpg 2x"
+                  media="(min-width: 320px)"
                 />
                 <img src="./images/img1-min.jpg" alt="фото сотрудника" />
               </picture>
@@ -299,9 +327,13 @@
             <li class="team__item">
               <picture>
                 <source
-                  srcset="./images/mob/tue1x.jpg 1x, ./images/mob/tue2x.jpg 2x"
-                  media="(min-width: 320px)"
+                  srcset="
+                    ./images/decktop/dex2com1x.jpg 1x,
+                    ./images/decktop/dex2com2x.jpg
+                  "
+                  media="(min-width: 1200px)"
                 />
+
                 <source
                   srcset="
                     ./images/tab/tab2x1.jpg 1x,
@@ -310,11 +342,8 @@
                   media="(min-width: 768px)"
                 />
                 <source
-                  srcset="
-                    ./images/decktop/dex2com1x.jpg 1x,
-                    ./images/decktop/dex2com2x.jpg
-                  "
-                  media="(min-width: 1200px)"
+                  srcset="./images/mob/tue1x.jpg 1x, ./images/mob/tue2x.jpg 2x"
+                  media="(min-width: 320px)"
                 />
                 <img src="./images/img2-min.jpg" alt="фото сотрудника" />
               </picture>
@@ -359,11 +388,12 @@
               <picture>
                 <source
                   srcset="
-                    ./images/mob/three1x.jpg 1x,
-                    ./images/mob/three2x.jpg 2x
+                    ./images/decktop/dex3com1x.jpg 1x,
+                    ./images/decktop/dex3com2x.jpg 2x
                   "
-                  media="(min-width: 320px)"
+                  media="(min-width: 1200px)"
                 />
+
                 <source
                   srcset="
                     ./images/tab/tab3x1.jpg 1x,
@@ -373,11 +403,12 @@
                 />
                 <source
                   srcset="
-                    ./images/decktop/dex3com1x.jpg 1x,
-                    ./images/decktop/dex3com2x.jpg 2x
+                    ./images/mob/three1x.jpg 1x,
+                    ./images/mob/three2x.jpg 2x
                   "
-                  media="(min-width: 1200px)"
+                  media="(min-width: 320px)"
                 />
+
                 <img src="./images/img3-min.jpg" alt="фото сотрудника" />
               </picture>
 
@@ -420,9 +451,13 @@
             <li class="team__item">
               <picture>
                 <source
-                  srcset="./images/mob/four1x.jpg 1x, ./images/mob/four2x.jpg 2x"
-                  media="(min-width: 320px)"
+                  srcset="
+                    ./images/decktop/dex4com1x.jpg 1x,
+                    ./images/decktop/dex4com2x.jpg 2x
+                  "
+                  media="(min-width: 1200px)"
                 />
+
                 <source
                   srcset="
                     ./images/tab/tab4x1.jpg 1x,
@@ -432,11 +467,12 @@
                 />
                 <source
                   srcset="
-                    ./images/decktop/dex4com1x.jpg 1x,
-                    ./images/decktop/dex4com2x.jpg 2x
+                    ./images/mob/four1x.jpg 1x,
+                    ./images/mob/four2x.jpg 2x
                   "
-                  media="(min-width: 1200px)"
+                  media="(min-width: 320px)"
                 />
+
                 <img src="./images/img4-min.jpg" alt="фото сотрудника" />
               </picture>
 
@@ -563,7 +599,7 @@
         </div>
         <div class="footer__box2">
           <p class="footer__desc">присоединяйтесь</p>
-          <ul class="social list">
+          <ul class="social icon--bottom--mob list">
             <li class="social__item">
               <a class="footer-social-link" href="">
                 <svg class="footer-social-icon" width="20" height="20">

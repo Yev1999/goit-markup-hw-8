@@ -39,7 +39,11 @@
 
 // :not(:last-child)
 .header__item:not(:last-child) {
-  margin-right: 20px;
+  margin-right: 50px;
+}
+
+.header__item2 {
+  flex-direction: column;
 }
 
 .header__link {
@@ -132,13 +136,14 @@
   }
   @media screen and (min-width: 768px) {
     display: flex;
-    flex-wrap: wrap;
+    flex-direction: column;
     margin-left: auto;
   }
   @media screen and (min-width: 1200px) {
     display: flex;
     flex-wrap: wrap;
     margin-left: auto;
+    flex-direction: row;
   }
 }
 
@@ -208,7 +213,7 @@
     color: var(--main-text-color);
     display: flex;
     align-items: center;
-    padding: 32px 0;
+    padding: 10px 0;
     transition: color var(--time) var(--cubic);
   }
   @media screen and (min-width: 1200px) {
