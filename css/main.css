@@ -14,7 +14,6 @@
   background-color: #fff;
   transition: fill var(--time) var(--cubic);
   cursor: pointer;
-  overflow: scroll;
 }
 
 .open-menu-btn:hover, .open-menu-btn:focus {
@@ -281,7 +280,7 @@ body {
 
 .modal-form {
   width: 100%;
-  height: 581px;
+  height: 600px;
   background-color: #fff;
   position: absolute;
   padding: 40px;
@@ -866,9 +865,7 @@ body {
   line-height: 1.16;
   letter-spacing: 0.02em;
   color: var(--main-text-color);
-  display: flex;
-  align-items: center;
-  padding: 0px 0;
+  margin-left: 10px;
   transition: color var(--time) var(--cubic);
 }
 
@@ -975,7 +972,7 @@ body {
   .customer {
     display: flex;
     flex-wrap: wrap;
-    margin-left: 30px;
+    justify-content: center;
   }
 }
 
@@ -1589,6 +1586,7 @@ body {
     line-height: 1.7;
     letter-spacing: 0.03em;
     color: var(--main-text-color);
+    padding: 0 0px;
   }
 }
 
@@ -1598,6 +1596,7 @@ body {
     line-height: 1.7;
     letter-spacing: 0.03em;
     color: var(--main-text-color);
+    padding: 0 0px;
   }
 }
 
@@ -1652,7 +1651,7 @@ body {
     text-align: center;
     letter-spacing: 0.03em;
     color: var(--second-title-color);
-    margin-bottom: 50px;
+    margin-bottom: 30px;
   }
 }
 

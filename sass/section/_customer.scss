@@ -1,13 +1,13 @@
 .customer {
-    display: flex;
-    flex-wrap: wrap;
-    margin-left: auto;
-    margin-right: auto;
-  
+  display: flex;
+  flex-wrap: wrap;
+  margin-left: auto;
+  margin-right: auto;
+
   @media screen and (min-width: 768px) {
     display: flex;
     flex-wrap: wrap;
-    margin-left: 30px;
+    justify-content: center;
   }
   @media screen and (min-width: 1200px) {
     display: flex;
@@ -64,16 +64,16 @@
   fill: currentColor;
 }
 
-.customer__item:not(:last-child) {
-  // margin-right: 30px;
-}
+// .customer__item:not(:last-child) {
+//   // margin-right: 30px;
+// }
 
 .customer__item {
-    flex-basis: calc((100% - 60px) / 2);
-    margin-left: 15px;
-    margin-right: 15px;
-    margin-bottom: 30px;
-  
+  flex-basis: calc((100% - 60px) / 2);
+  margin-left: 15px;
+  margin-right: 15px;
+  margin-bottom: 30px;
+
   @media screen and (min-width: 768px) {
     flex-basis: calc((100% - 60px) / 4);
     margin-left: 15px;
