@@ -7,20 +7,20 @@
 }
 
 .open-menu-btn {
-  @media screen and (min-width: 320px) {
-    margin-left: auto;
-    border: 1px solid rgba(0, 0, 0, 0);
-    border-radius: 50%;
-    fill: #000000;
-    background-color: #fff;
-    transition: fill var(--time) var(--cubic);
-    cursor: pointer;
+  margin-left: auto;
+  border: 1px solid rgba(0, 0, 0, 0);
+  border-radius: 50%;
+  fill: #000000;
+  background-color: #fff;
+  transition: fill var(--time) var(--cubic);
+  cursor: pointer;
+  overflow: scroll;
 
-    &:hover,
-    &:focus {
-      fill: var(--hover-text);
-    }
+  &:hover,
+  &:focus {
+    fill: var(--hover-text);
   }
+
   @media screen and (min-width: 768px) {
     display: none;
   }
@@ -30,14 +30,13 @@
 }
 
 .heder__logo {
-  @media screen and (min-width: 320px) {
-    font-family: Raleway;
-    font-weight: 700;
-    font-size: 24px;
-    line-height: 1.16;
-    letter-spacing: 0.03em;
-    color: var(--colored-text);
-  }
+  font-family: Raleway;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 1.16;
+  letter-spacing: 0.03em;
+  color: var(--colored-text);
+
   @media screen and (min-width: 768px) {
     font-family: Raleway;
     font-weight: 700;

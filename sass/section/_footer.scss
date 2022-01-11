@@ -28,17 +28,16 @@
 }
 
 .footer__desc {
-  @media screen and (min-width: 320px) {
-    font-weight: 700;
-    font-size: 14px;
-    line-height: 1.14;
-    text-align: center;
-    letter-spacing: 0.03em;
-    text-transform: uppercase;
-    color: #ffffff;
-    margin-bottom: 20px;
-    margin-top: 60px;
-  }
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.14;
+  text-align: center;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: #ffffff;
+  margin-bottom: 20px;
+  margin-top: 60px;
+
   @media screen and (min-width: 768px) {
     font-weight: 700;
     font-size: 14px;
@@ -168,22 +167,21 @@
 }
 
 .footer-btn-new {
-  @media screen and (min-width: 320px) {
-    margin-top: 20px;
-    width: 200px;
-    height: 50px;
-    border: transparent;
-    display: flex;
-    margin-left: 12px;
-    align-items: center;
-    justify-content: center;
-    width: 40%;
-    left: 50%;
-    margin-left: auto;
-    margin-right: auto;
-    fill: #ffffff;
-    transition: background-color var(--time) var(--cubic);
-  }
+  margin-top: 20px;
+  width: 200px;
+  height: 50px;
+  border: transparent;
+  display: flex;
+  margin-left: 12px;
+  align-items: center;
+  justify-content: center;
+  width: 40%;
+  left: 50%;
+  margin-left: auto;
+  margin-right: auto;
+  fill: #ffffff;
+  transition: background-color var(--time) var(--cubic);
+
   @media screen and (min-width: 768px) {
     margin-top: 20px;
     width: 200px;
@@ -228,24 +226,23 @@
 }
 
 .footer-input-new {
-  @media screen and (min-width: 320px) {
-    width: 300px;
-    height: 50px;
-    border: 1px solid rgba(255, 255, 255, 0.1);
-    border-radius: 4px;
-    padding-left: 16px;
-    padding-right: 16px;
-    margin-top: 20px;
-    background-color: var(--footer-fon);
-    color: #757575;
-    cursor: pointer;
-    transition: border-color var(--time) var(--cubic);
+  width: 300px;
+  height: 50px;
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  border-radius: 4px;
+  padding-left: 16px;
+  padding-right: 16px;
+  margin-top: 20px;
+  background-color: var(--footer-fon);
+  color: #757575;
+  cursor: pointer;
+  transition: border-color var(--time) var(--cubic);
 
-    &:focus {
-      outline: none;
-      box-shadow: none;
-    }
+  &:focus {
+    outline: none;
+    box-shadow: none;
   }
+
   @media screen and (min-width: 768px) {
     width: 450px;
     height: 50px;
