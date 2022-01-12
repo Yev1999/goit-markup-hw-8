@@ -1028,7 +1028,7 @@ body {
 
 @media screen and (min-width: 480px) {
   .customer__link {
-    width: 170px;
+    width: auto;
     height: 92px;
     border-radius: 4px;
     border: 1px solid #afb1b8;
@@ -1043,7 +1043,7 @@ body {
 
 @media screen and (min-width: 768px) {
   .customer__link {
-    width: 170px;
+    width: 226px;
     height: 92px;
     border-radius: 4px;
     border: 1px solid #afb1b8;
@@ -1053,6 +1053,12 @@ body {
     color: #afb1b8;
     transition: color var(--time) var(--cubic);
     margin-bottom: 30px;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .customer__link {
+    width: 170px;
   }
 }
 
@@ -1479,15 +1485,12 @@ body {
 @media screen and (min-width: 768px) {
   .social {
     display: flex;
-    margin-left: 17%;
   }
 }
 
 @media screen and (min-width: 1200px) {
   .social {
     display: flex;
-    margin-left: 10%;
-    margin-top: 30px;
   }
 }
 
