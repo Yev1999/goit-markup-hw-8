@@ -132,18 +132,21 @@
   transition: color var(--time) var(--cubic);
 }
 
+.numer__link {
+  display: flex;
+  flex-direction: column;
+  margin-top: auto;
+}
+
 .link__tel {
   font-weight: 500;
   font-size: 24px;
   line-height: 1.16;
   letter-spacing: 0.02em;
+
+  margin-bottom: -35px;
   color: var(--main-text-color);
   margin-left: 10px;
-  // display: flex;
-  // align-items: center;
-  // padding: 0px 0;
-  // position: relative;
-  // bottom: -180px;
   transition: color var(--time) var(--cubic);
 
   @media screen and (min-width: 768px) {
@@ -228,4 +231,16 @@
     color: rgba(33, 33, 33, 0.2);
     background-color: rgba(33, 33, 33, 0.2);
   }
+}
+.mobil__link:not(:last-child) {
+  content: "";
+  display: block;
+  position: relative;
+  width: 0px;
+  height: 0px;
+  bottom: -20px;
+  right: 12px;
+  border-radius: 2px;
+  color: rgba(33, 33, 33, 0.2);
+  background-color: rgba(33, 33, 33, 0.2);
 }
