@@ -993,6 +993,7 @@ body {
   font-size: 32px;
   line-height: 1.17;
   letter-spacing: 0.02em;
+  margin-top: -50px;
   color: #2196f3;
   transition: color var(--time) var(--cubic);
 }
