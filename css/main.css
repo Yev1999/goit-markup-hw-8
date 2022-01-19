@@ -115,8 +115,18 @@ img {
   margin: 0 auto;
 }
 
+@media screen and (min-width: 480px) {
+  .container {
+    width: 480px;
+    padding-left: 15px;
+    padding-right: 15px;
+    margin: 0 auto;
+  }
+}
+
 @media screen and (min-width: 768px) {
   .container {
+    width: 768px;
     padding-left: 15px;
     padding-right: 15px;
   }
@@ -734,7 +744,7 @@ body {
   position: relative;
   width: 100%;
   height: 4px;
-  bottom: -26px;
+  bottom: -28px;
   border-radius: 2px;
   color: var(--colored-text);
   background-color: var(--hover-text);
@@ -1523,7 +1533,7 @@ body {
 }
 
 .work__box {
-  width: 100%;
+  width: auto;
   height: 120px;
   background-color: #f5f4fa;
   border-radius: 4px;
@@ -1531,6 +1541,30 @@ body {
   align-items: center;
   justify-content: center;
   margin-bottom: 30px;
+}
+
+@media screen and (min-width: 480px) {
+  .work__box {
+    width: 450px;
+    height: 120px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .work__box {
+    width: 354px;
+    height: 120px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .work__box {
+    width: auto;
+  }
 }
 
 .work {
