@@ -293,14 +293,27 @@ body {
 }
 
 .modal-form {
-  width: 100%;
-  height: 600px;
+  width: auto;
+  height: auto;
   background-color: #fff;
   position: absolute;
   padding: 40px;
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
+}
+
+@media screen and (min-width: 480px) {
+  .modal-form {
+    width: 450px;
+    height: 609px;
+    background-color: #fff;
+    position: absolute;
+    padding: 40px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
 }
 
 @media screen and (min-width: 768px) {
@@ -375,20 +388,71 @@ body {
 }
 
 .contract {
-  margin-left: 5px;
   font-weight: 400;
-  font-size: 14px;
-  line-height: 1.3;
+  font-size: 12px;
+  line-height: 1.16;
   letter-spacing: 0.3pt;
   color: var(--hover-text);
 }
 
+@media screen and (min-width: 480px) {
+  .contract {
+    margin-left: 0px;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 1.16;
+    letter-spacing: 0.3pt;
+    display: flex;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .contract {
+    margin-left: 5px;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.7;
+    letter-spacing: 0.3pt;
+    display: flex;
+  }
+}
+
 .lablel-policy {
   font-weight: 400;
-  font-size: 14px;
-  line-height: 1.3;
+  font-size: 12px;
+  line-height: 1.16;
   letter-spacing: 0.3pt;
   display: flex;
+}
+
+@media screen and (min-width: 480px) {
+  .lablel-policy {
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 1.16;
+    letter-spacing: 0.3pt;
+    display: flex;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .lablel-policy {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.3;
+    letter-spacing: 0.3pt;
+    display: flex;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .lablel-policy {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.3;
+    letter-spacing: 0.3pt;
+    display: flex;
+  }
 }
 
 .check-item {
