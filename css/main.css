@@ -956,7 +956,6 @@ body {
   letter-spacing: 0.02em;
   margin-bottom: -35px;
   color: var(--main-text-color);
-  margin-left: 10px;
   transition: color var(--time) var(--cubic);
 }
 
