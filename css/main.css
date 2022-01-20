@@ -988,6 +988,10 @@ body {
   }
 }
 
+.link__tel:hover, .link__tel:focus {
+  color: var(--hover-text);
+}
+
 .bloo__color {
   font-weight: 500;
   font-size: 32px;
