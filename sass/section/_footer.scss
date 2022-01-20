@@ -97,6 +97,10 @@
   margin-bottom: 8px;
   display: block;
   text-align: center;
+
+  &:last-child {
+    margin-bottom: 0px;
+  }
 }
 
 .footer-map {
