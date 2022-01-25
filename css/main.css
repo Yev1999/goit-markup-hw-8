@@ -292,11 +292,11 @@ body {
   fill: var(--hover-text);
 }
 
-.modal-form {
+.modal {
   width: 90%;
   height: auto;
   background-color: #fff;
-  position: absolute;
+  position: relative;
   padding: 40px;
   top: 50%;
   left: 50%;
@@ -304,11 +304,11 @@ body {
 }
 
 @media screen and (min-width: 480px) {
-  .modal-form {
+  .modal {
     width: 450px;
     height: 609px;
     background-color: #fff;
-    position: absolute;
+    position: relative;
     padding: 40px;
     top: 50%;
     left: 50%;
@@ -317,11 +317,11 @@ body {
 }
 
 @media screen and (min-width: 768px) {
-  .modal-form {
+  .modal {
     width: 528px;
     height: 581px;
     background-color: #fff;
-    position: absolute;
+    position: relative;
     padding: 40px;
     top: 50%;
     left: 50%;
@@ -330,11 +330,11 @@ body {
 }
 
 @media screen and (min-width: 1200px) {
-  .modal-form {
+  .modal {
     width: 528px;
     height: 581px;
     background-color: #fff;
-    position: absolute;
+    position: relative;
     padding: 40px;
     top: 50%;
     left: 50%;
@@ -1093,7 +1093,6 @@ body {
   .customer {
     display: flex;
     flex-wrap: wrap;
-    margin-left: -30px;
   }
 }
 
@@ -1175,6 +1174,10 @@ body {
   .customer__item {
     flex-basis: calc((100% - 60px) / 7);
   }
+}
+
+.customer__item:not(:last-child) {
+  margin-right: 30px;
 }
 
 @media screen and (min-width: 480px) {

@@ -12,7 +12,6 @@
   @media screen and (min-width: 1200px) {
     display: flex;
     flex-wrap: wrap;
-    margin-left: -30px;
   }
 }
 
@@ -67,10 +66,6 @@
   fill: currentColor;
 }
 
-// .customer__item:not(:last-child) {
-//   // margin-right: 30px;
-// }
-
 .customer__item {
   flex-basis: calc((100% - 60px) / 2);
   margin-left: 15px;
@@ -85,5 +80,9 @@
   }
   @media screen and (min-width: 1200px) {
     flex-basis: calc((100% - 60px) / 7);
+  }
+
+  &:not(:last-child) {
+    margin-right: 30px;
   }
 }
