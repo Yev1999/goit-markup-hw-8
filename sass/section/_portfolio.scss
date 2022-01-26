@@ -77,11 +77,11 @@
 
 .partition__link {
   display: block;
+  transition: box-shadow 0.3s ease-in-out;
   &:hover {
     background: var(--second-color);
     box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06),
       1px 4px 6px rgba(0, 0, 0, 0.16);
-    transition: box-shadow 0.3s ease-in-out;
   }
   &:hover .partition__pretext,
   &:focus .partition__pretext {

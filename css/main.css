@@ -1172,12 +1172,13 @@ body {
 
 @media screen and (min-width: 1200px) {
   .customer__item {
-    flex-basis: calc((100% - 60px) / 7);
+    flex-basis: calc((0% - 0px) / 6);
+    margin-right: 30px;
   }
 }
 
-.customer__item:not(:last-child) {
-  margin-right: 30px;
+.customer__item:last-child {
+  margin-right: 0px;
 }
 
 @media screen and (min-width: 480px) {
@@ -1301,12 +1302,12 @@ body {
 
 .partition__link {
   display: block;
+  transition: box-shadow 0.3s ease-in-out;
 }
 
 .partition__link:hover {
   background: var(--second-color);
   box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06), 1px 4px 6px rgba(0, 0, 0, 0.16);
-  transition: box-shadow 0.3s ease-in-out;
 }
 
 .partition__link:hover .partition__pretext,
